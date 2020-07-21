@@ -93,14 +93,6 @@
                 doc.getElementById('customer_phone').value = data.phone;
             }            
         }
-		
-		if(doc.getElementById('shipping_streetname')) {
-            doc.getElementById('shipping_streetname').value = '1234';
-        }
-		
-		if(doc.getElementById('shipping_streetnumber')) {
-            doc.getElementById('shipping_streetnumber').value = '4321';
-        }
 
         if(doc.getElementById('shipping_cep')) {
             doc.getElementById('shipping_cep').value = '13087-430';
